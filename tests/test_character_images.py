@@ -14,7 +14,7 @@ class CharacterImageTests(unittest.TestCase):
         yodo = sources['aoi-yodo']
         self.assertIn('小川真由美', yodo['alt'])
         self.assertEqual(len(yodo['verification_sources']), 2)
-        self.assertEqual(hashlib.sha256((root / 'assets/characters/aoi-yodo.jpg').read_bytes()).hexdigest(), '3ac73f38315e79af7c58555aba3958987e7ec8d463d3fe0526ea9a2440930606')
+        self.assertEqual(hashlib.sha256((root / 'assets/characters/aoi-yododono-corrected.jpg').read_bytes()).hexdigest(), '3ac73f38315e79af7c58555aba3958987e7ec8d463d3fe0526ea9a2440930606')
         self.assertIn('烛火', sources['joy-modesta-4']['caption'])
         self.assertIn('tg24.sky.it', sources['joy-modesta-1']['source'])
 
@@ -47,7 +47,7 @@ class CharacterImageTests(unittest.TestCase):
             self.assertEqual(len([k for k in keys if k.startswith(prefix)]),n)
     def test_joy_gallery_contains_six_distinct_images(self):
         import hashlib
-        files=list((ROOT/'assets/characters').glob('joy-modesta-hq-*.jpg'))
+        files=list((ROOT/'assets/characters').glob('joy-modesta-mood-*.jpg'))
         self.assertEqual(len(files),6)
         from PIL import Image
         for p in files:
