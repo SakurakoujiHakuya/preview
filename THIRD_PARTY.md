@@ -52,7 +52,9 @@ Source gallery: https://www.davidemaggio.it/photogallery/larte-della-gioia
 - `joy-modesta-hq-1.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-7-Larte-della-gioia-scaled.jpg
 - `joy-modesta-hq-2.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insola-e-Giuseppe-Spata-Larte-della-gioia-scaled.jpg
 - `joy-modesta-hq-3.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-3-Larte-della-gioia-scaled.jpg
-- `joy-modesta-hq-4.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-LArte-della-Gioia-scaled-e1740755167422.jpg
+- `joy-modesta-hq-4.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-e-Alma-Noce-Larte-della-gioia-scaled.jpg
 - `joy-modesta-hq-5.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-10-Larte-della-gioia-scaled.jpg
 - `joy-modesta-hq-6.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-4-Larte-della-gioia-scaled.jpg
 The existing Modesta character card also uses `joy-modesta-hq-4.jpg`; it is not counted as a seventh distinct gallery image.
+
+The fourth Modesta photograph was changed to the blue-hour scene with Beatrice after user feedback. Modesta is on the left, Beatrice on the right. Full original composition is retained in both the role card and gallery.

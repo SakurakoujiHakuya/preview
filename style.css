@@ -86,3 +86,6 @@
 
 /* Keep the literary heading in two intact phrases, without stranded final characters. */
 .psyche-intro{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.psyche-intro .psyche-headline{font-size:clamp(28px,4.1vw,56px);line-height:1.45;letter-spacing:-.025em}.psyche-headline>span,.psyche-headline>em{display:block;white-space:nowrap}.psyche-intro>div{min-width:0}@media(max-width:800px){.psyche-intro{grid-template-columns:1fr}.psyche-intro .psyche-headline{font-size:clamp(28px,7vw,44px)}}
+
+/* Preserve the complete gesture and both faces in the Modesta scene. */
+.joy-cast-grid .modesta-mood-card>img{height:auto;aspect-ratio:2560/1707;object-fit:contain}
