@@ -32,3 +32,54 @@
 .essay-body h4{font:500 clamp(19px,2vw,23px)/1.65 'Songti SC',serif;margin:32px 0 12px;color:#334739}.essay-body .essay-question{border-left:2px solid #7c896c;padding:15px 20px;background:#e5e8df;margin:28px 0;line-height:2}.essay-body .essay-question strong{display:block;font-size:12px;letter-spacing:.08em;margin-bottom:8px}.essay-references{margin-top:30px;padding-top:18px;border-top:1px solid #c8cbbc}.essay-references p{font-size:10px!important;color:#707969}.essay-references a{display:block;font-size:12px;line-height:1.9;margin:9px 0;overflow-wrap:anywhere}
 
 .aoi-cinema .seen{color:#4e5137;border-color:#887543}.essay-body>.reading-meta:first-of-type::first-letter{float:none;font:inherit;color:inherit;margin:0;padding:0}
+
+/* Character stills: the frame belongs to the work, the image to its credited owner. */
+.character-portrait{margin:0;min-width:0;width:100%}
+.portrait-open{display:block;position:relative;width:100%;padding:0;border:0;background:#1119;color:inherit;cursor:zoom-in;overflow:hidden}
+.portrait-open img{display:block;width:100%;height:auto;object-fit:contain}
+.portrait-open>span{position:absolute;right:9px;bottom:9px;display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:#111c;color:white;font-size:16px}
+.character-portrait figcaption{font-size:11px;line-height:1.65;margin:10px 0 18px;letter-spacing:.02em;opacity:.86}
+.character-portrait figcaption small{display:block;font-size:9px;line-height:1.6;opacity:.7;margin-top:3px}
+.gilded-cinema .character-portrait .portrait-open{padding:5px;border:1px solid #997643;background:#19130d;box-shadow:inset 0 0 0 2px #493520}
+.gilded-cinema .character-portrait figcaption{color:#d8bc8b}
+.sister-page{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:26px;align-items:start;min-height:320px}
+.women-cinema .character-portrait{padding:10px 10px 0;background:#faf6ed;box-shadow:1px 3px 9px #50432928;transform:rotate(-1deg)}
+.women-cinema .character-portrait figcaption{font-family:Georgia,'Songti SC',serif;color:#5a493b}
+.letter-paper .letter-person{display:flow-root}
+.letter-person .character-portrait{float:left;width:clamp(110px,30%,170px);margin:0 24px 10px 0;padding:8px 8px 0;border:1px solid #b4a17c;background:#f7efdc}
+.letter-person .character-portrait figcaption{font-size:10px;margin-bottom:9px}
+.letter-person h4{padding-top:8px}
+.stage-people .character-portrait{margin-bottom:24px}
+.hamnet-cinema .portrait-open{border:1px solid #7d8456;padding:7px;background:#11190e}
+.stage-footnote .character-portrait{max-width:580px;margin:0 auto 25px}
+.aoi-dossier{display:grid;grid-template-columns:230px minmax(0,1fr);gap:35px;align-items:start}
+.aoi-dossier .character-portrait{padding:7px 7px 0;background:#c4a45f18;border:1px solid #a78645}
+.aoi-dossier .portrait-copy{min-width:0}
+.aoi-family .character-portrait{max-width:520px;margin-top:18px}
+.aoi-family .character-portrait:not(:first-child){margin-top:35px}
+#umineko-person{display:grid;grid-template-columns:minmax(160px,.8fr) minmax(0,1.2fr);gap:32px;align-items:center;min-height:480px}
+.umineko-cinema .portrait-copy{min-width:0}
+.umineko-cinema .character-portrait{margin:0}
+.umineko-cinema .portrait-open{background:radial-gradient(ellipse at 50% 70%,#a7883b33,transparent 70%);border-bottom:1px solid #a78c54;padding:10px}
+.umineko-cinema .portrait-open img{height:360px;object-fit:contain;object-position:center bottom}
+.portrait-dialog{width:min(94vw,1080px);max-height:94dvh;border:1px solid #877b65;background:#181915;color:#f5efe2;padding:46px 20px 20px;box-sizing:border-box;overflow:auto}
+.portrait-dialog::backdrop{background:#080908e6;backdrop-filter:blur(5px)}
+.portrait-dialog>img{display:block;width:100%;height:min(70dvh,780px);object-fit:contain;background:#20231e}
+.portrait-dialog p{font-size:12px;line-height:1.8;margin:16px 0 5px}
+.portrait-dialog>a{font-size:12px;color:#d7ba7a}
+.portrait-close{position:absolute;right:15px;top:10px;background:transparent;border:0;padding:8px;color:#fff;cursor:pointer;font-size:13px}
+.portrait-open:focus-visible,.portrait-close:focus-visible{outline:3px solid #d6a851;outline-offset:4px}
+@media(max-width:700px){
+ .sister-page{grid-template-columns:1fr;gap:14px}
+ .sister-page .character-portrait{max-width:440px}
+ .aoi-dossier{grid-template-columns:1fr;gap:16px}
+ .aoi-dossier .character-portrait{max-width:250px;margin:auto}
+ #umineko-person{grid-template-columns:1fr;gap:12px}
+ .umineko-cinema .portrait-open img{height:320px}
+ .letter-person .character-portrait{float:none;width:min(100%,210px);margin:0 auto 18px}
+ .character-portrait figcaption{overflow-wrap:anywhere}
+ .portrait-dialog{padding:45px 12px 16px}
+}
+/* Joy: an editorial picture book, not another generic work card. */
+.joy-recommend{background:#dfd4a519;font-weight:600;letter-spacing:.07em}.joy-edition{font-size:11px!important;line-height:1.9!important;color:#c0bb9c!important;margin:20px 0!important}.joy-gallery-heading h4,.joy-reading>h4{font:400 clamp(26px,4vw,44px)/1.55 'Songti SC',Georgia,serif;margin:20px 0}.joy-gallery-heading>p,.joy-gallery-source{font-size:12px;line-height:1.9;color:#c0bb9c}.modesta-contact-sheet{display:grid;grid-template-columns:1fr 1fr;gap:36px 24px;margin-top:30px}.modesta-contact-sheet>.character-portrait:first-child{grid-column:1/-1}.joy-cinema .character-portrait{margin:0}.joy-cinema .character-portrait img{width:100%;height:auto;object-fit:contain;max-height:none;aspect-ratio:auto}.joy-cinema .character-portrait figcaption{color:#ddd4b3;font-size:12px;line-height:1.7}.joy-cinema .character-portrait figcaption small{color:#a7a78e}.joy-gallery-source{margin-top:24px}.joy-cast-grid>article:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.joy-reading{padding:30px 0 5px}.joy-reading-lead{max-width:650px;font:12px/2 Arial,sans-serif;color:#b9b69d}.joy-margins{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin:40px 0}.joy-margins article{border-top:1px solid #62664b;padding-top:20px}.joy-margins article>span{font:10px monospace;color:#c2b87c}.joy-margins h5{font:400 23px/1.5 'Songti SC',serif;margin:15px 0}.joy-margins p,.joy-craft p{font-size:14px;line-height:2;color:#d1d1bf}.joy-craft{border-top:1px solid #62664b;padding:22px 0}.joy-craft summary{cursor:pointer;font-size:15px}.joy-craft a{font-size:12px;text-decoration:underline;text-underline-offset:4px;color:#c8c19c}.portrait-gallery-nav{display:flex;align-items:center;justify-content:center;gap:24px;margin:15px 0}.portrait-gallery-nav button{padding:10px 14px;border:1px solid #747362;background:transparent;color:inherit;cursor:pointer}.portrait-gallery-nav span{font:12px monospace}.portrait-gallery-nav[hidden]{display:none}.portrait-dialog img{max-height:65vh}.essay-body .reading-meta{font-size:12px;color:#707969}.essay-body h4{scroll-margin-top:40px}.artbook-nav{flex-wrap:wrap}
+@media(max-width:700px){.modesta-contact-sheet{grid-template-columns:1fr;gap:28px}.joy-cast-grid>article:last-child{display:block}.joy-margins{grid-template-columns:1fr;gap:24px}.joy-cast-grid>article:last-child .character-copy{padding-top:20px}.portrait-gallery-nav{gap:12px}.portrait-gallery-nav button{font-size:12px}.joy-gallery-heading h4,.joy-reading>h4{font-size:27px}.artbook-nav button{font-size:11px}}
