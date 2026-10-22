@@ -92,3 +92,7 @@
 
 /* Do not enlarge the SD-era Yododono source beyond its native width. */
 [data-portrait="aoi-yodo"]{max-width:520px;margin-inline:auto}
+
+/* The curated film frames retain their original compositions, including edge-framed faces. */
+.modesta-mood-card>img{aspect-ratio:16/9;object-fit:contain}
+.modesta-contact-sheet .portrait-open img{aspect-ratio:16/9;object-fit:contain;background:#111}

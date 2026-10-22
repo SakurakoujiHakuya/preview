@@ -58,3 +58,11 @@ Five of the six distinct photographs were replaced in response to the requested 
 
 ### Yododono correction
 The previous image was mistakenly Senhime, not Yododono. It has been replaced with the gold-costume Yododono still in the Channel Ginga gallery. Role and actor were cross-checked against NHK episode 17 and the labeled role portrait at https://taigacast.com/cast_main/?cast-no=404003900 . The source is 520×293, not represented as HD. Senhime’s actor is separately confirmed by https://honest.family/artist/nanakoohkouchi/ .
+
+### Curated Modesta film moments (2026-10-22)
+The previous six-image mood selection is replaced by five distinct images. Four are unaltered 1280×720 frames from Sky’s publicly available official trailer, not upscaled publicity stills. Copyright remains with the original rights holders; the repository MIT license does not license these frames or photographs. No popularity ranking is asserted.
+- `joy-modesta-cinema-1.png`: https://video.sky.it/news/spettacolo/video/larte-della-gioia-trailer-video-926993 (approximately 85.5 seconds).
+- `joy-modesta-cinema-2.png`: https://video.sky.it/news/spettacolo/video/larte-della-gioia-trailer-video-926993 (approximately 55.5 seconds).
+- `joy-modesta-cinema-3.png`: https://video.sky.it/news/spettacolo/video/larte-della-gioia-trailer-video-926993 (approximately 22.5 seconds).
+- `joy-modesta-cinema-4.png`: https://video.sky.it/news/spettacolo/video/larte-della-gioia-trailer-video-926993 (approximately 97.5 seconds).
+- `joy-modesta-cinema-5.png`: https://www.iodonna.it/personaggi/star-italiane/2025/02/23/tecla-insolia-la-mia-personale-arte-della-gioia-dare-valore-a-quel-che-ho-lasciando-andare-la-pesantezza/ (Paolo Ciriello / Sky Italia; editorial publication reproduces the production credit).
