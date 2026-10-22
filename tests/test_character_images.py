@@ -57,6 +57,8 @@ class CharacterImageTests(unittest.TestCase):
         self.assertEqual(html.count('data-gallery="modesta"'),5)
         self.assertIn('HAKUYA 重点推荐',html)
         self.assertIn('joy-reading',html)
+        self.assertNotIn('六帧', (ROOT/'library.js').read_text())
+        self.assertIn('Modesta / 五帧', (ROOT/'library.js').read_text())
     def test_academic_revision_preserves_five_essays_and_25_sections(self):
         html=(ROOT/'index.html').read_text().split('<section class="psyche shell"',1)[1].split('</section>',1)[0]
         self.assertEqual(html.count('class="long-essay"'),5)
