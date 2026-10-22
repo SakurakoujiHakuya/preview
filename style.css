@@ -89,3 +89,6 @@
 
 /* Preserve the complete gesture and both faces in the Modesta scene. */
 .joy-cast-grid .modesta-mood-card>img{height:auto;aspect-ratio:2560/1707;object-fit:contain}
+
+/* Do not enlarge the SD-era Yododono source beyond its native width. */
+[data-portrait="aoi-yodo"]{max-width:520px;margin-inline:auto}

@@ -47,14 +47,14 @@ Six distinct Modesta publicity photographs supplied by Sky and reproduced in Dav
 
 Editorial sources: https://tg24.sky.it/spettacolo/serie-tv/2025/02/24/l-arte-della-gioia-serie-tv and https://www.arri.com/news-it/dp-fabio-cianchetti-e-la-serie-tv-l-arte-della-gioia . The space/relationships/ethics section is editorial interpretation, not an attributed personal review.
 
-### Replacement high-resolution Modesta selection
-Source gallery: https://www.davidemaggio.it/photogallery/larte-della-gioia
-- `joy-modesta-hq-1.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-7-Larte-della-gioia-scaled.jpg
-- `joy-modesta-hq-2.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insola-e-Giuseppe-Spata-Larte-della-gioia-scaled.jpg
-- `joy-modesta-hq-3.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-3-Larte-della-gioia-scaled.jpg
-- `joy-modesta-hq-4.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-e-Alma-Noce-Larte-della-gioia-scaled.jpg
-- `joy-modesta-hq-5.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-10-Larte-della-gioia-scaled.jpg
-- `joy-modesta-hq-6.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-4-Larte-della-gioia-scaled.jpg
-The existing Modesta character card also uses `joy-modesta-hq-4.jpg`; it is not counted as a seventh distinct gallery image.
+### Low-key Modesta selection
+Five of the six distinct photographs were replaced in response to the requested darker, contemplative mood. These are original publicity stills, not darkened edits. Native widths are 2560–2995 pixels; the Sky watermark on the first photograph is retained.
+- `joy-modesta-hq-1.jpg`: https://tg24.sky.it/assets/images/3cc6f9727a75c58506fc58f334e58c74e250c695/skytg24/it/spettacolo/serie-tv/2025/02/24/l-arte-della-gioia-serie-tv/l-arte-della-gioia_EP01_100523_0018_AMiconi.jpg
+- `joy-modesta-hq-2.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-6-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-3.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-2-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-4.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-9-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-5.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-e-Giovanni-Bagnasco-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-6.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-7-Larte-della-gioia-scaled.jpg
 
-The fourth Modesta photograph was changed to the blue-hour scene with Beatrice after user feedback. Modesta is on the left, Beatrice on the right. Full original composition is retained in both the role card and gallery.
+### Yododono correction
+The previous image was mistakenly Senhime, not Yododono. It has been replaced with the gold-costume Yododono still in the Channel Ginga gallery. Role and actor were cross-checked against NHK episode 17 and the labeled role portrait at https://taigacast.com/cast_main/?cast-no=404003900 . The source is 520×293, not represented as HD. Senhime’s actor is separately confirmed by https://honest.family/artist/nanakoohkouchi/ .

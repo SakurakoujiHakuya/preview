@@ -6,6 +6,18 @@ import unittest
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 class CharacterImageTests(unittest.TestCase):
+    def test_yododono_correction_and_mood_selection(self):
+        import hashlib
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        sources = json.loads((root / 'assets/characters/sources.json').read_text())
+        yodo = sources['aoi-yodo']
+        self.assertIn('小川真由美', yodo['alt'])
+        self.assertEqual(len(yodo['verification_sources']), 2)
+        self.assertEqual(hashlib.sha256((root / 'assets/characters/aoi-yodo.jpg').read_bytes()).hexdigest(), '3ac73f38315e79af7c58555aba3958987e7ec8d463d3fe0526ea9a2440930606')
+        self.assertIn('烛火', sources['joy-modesta-4']['caption'])
+        self.assertIn('tg24.sky.it', sources['joy-modesta-1']['source'])
+
     def test_manifest_has_34_credited_photos(self):
         items = json.loads((ROOT/'assets/characters/sources.json').read_text())
         self.assertEqual(len(items),34)
