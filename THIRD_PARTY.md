@@ -16,3 +16,9 @@
 海猫官方 PV 通过点击后加载的 YouTube 隐私增强播放器提供，来源为 [Entergram 官方视频页](https://www.entergram.co.jp/umineko/movie.html)。
 
 Yjs/lib0：见 assets/YJS-LICENSE.txt 与 assets/LIB0-LICENSE.txt。assets/umineko-cover.svg 与 assets/nenotori-cover.svg 是抽象主题排版，不是游戏原作画面。
+
+## 葵 徳川三代（2000）
+- `assets/aoi-dvd.jpg`: NHK Group Mall official DVD-BOX 第壱集 cover, original 500×500 image, https://nhk-groupmall.jp/cdn/shop/files/12398AA_1946x.jpg?v=1713349990 . Source: https://nhk-groupmall.jp/products/nqu-12398aa . © NHK and original rightsholders; not covered by any source-code license. Used for identifying and discussing the work; no image redistribution license is claimed.
+- Year, premise, writer, music and narrator: same NHK product page. Cast/roles: https://www.nhk-ondemand.jp/program/P201200099500000/index.html?np_banID=top_pr_000995 and https://nhk-groupmall.jp/blogs/read/ieyasu . Checked 2026-10-22.
+- Chinese descriptions are original summaries. Viewing questions are editorial prompts, not attributed to Hakuya as personal reviews.
+- `assets/aoi-still.jpg`: Episode 20 official still, © NHK. Source: https://www.nhk-ondemand.jp/goods/G2019096601SA000/index.html ; original image https://www.nhk-ondemand.jp/material/opus/N201909660100000/img/N201909660100000_h.jpg (480×270), kept unaltered. Not covered by any source-code license.
