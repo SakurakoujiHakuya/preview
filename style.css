@@ -30,3 +30,5 @@
 
 /* Reading essays: quiet hierarchy, generous paragraphs, a question to carry away. */
 .essay-body h4{font:500 clamp(19px,2vw,23px)/1.65 'Songti SC',serif;margin:32px 0 12px;color:#334739}.essay-body .essay-question{border-left:2px solid #7c896c;padding:15px 20px;background:#e5e8df;margin:28px 0;line-height:2}.essay-body .essay-question strong{display:block;font-size:12px;letter-spacing:.08em;margin-bottom:8px}.essay-references{margin-top:30px;padding-top:18px;border-top:1px solid #c8cbbc}.essay-references p{font-size:10px!important;color:#707969}.essay-references a{display:block;font-size:12px;line-height:1.9;margin:9px 0;overflow-wrap:anywhere}
+
+.aoi-cinema .seen{color:#4e5137;border-color:#887543}.essay-body>.reading-meta:first-of-type::first-letter{float:none;font:inherit;color:inherit;margin:0;padding:0}
