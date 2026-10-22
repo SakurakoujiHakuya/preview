@@ -18,7 +18,7 @@ class Document(HTMLParser):
         if tag in ('img', 'script', 'link'):
             path = a.get('src', a.get('href', ''))
             if path and not path.startswith(('http', 'data:', '#')):
-                self.assets.append(path)
+                self.assets.append(path.split("?", 1)[0])
 
 class HomepageTests(unittest.TestCase):
     @classmethod
