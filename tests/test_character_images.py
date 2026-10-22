@@ -35,8 +35,11 @@ class CharacterImageTests(unittest.TestCase):
             self.assertEqual(len([k for k in keys if k.startswith(prefix)]),n)
     def test_joy_gallery_contains_six_distinct_images(self):
         import hashlib
-        files=list((ROOT/'assets/characters').glob('joy-modesta-*.jpg'))
+        files=list((ROOT/'assets/characters').glob('joy-modesta-hq-*.jpg'))
         self.assertEqual(len(files),6)
+        from PIL import Image
+        for p in files:
+            with Image.open(p) as im: self.assertGreaterEqual(im.width,2560)
         self.assertEqual(len({hashlib.sha256(p.read_bytes()).hexdigest() for p in files}),6)
         html=(ROOT/'index.html').read_text()
         self.assertEqual(html.count('data-gallery="modesta"'),6)

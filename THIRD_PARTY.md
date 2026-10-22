@@ -39,16 +39,20 @@ Yjs/lib0：见 assets/YJS-LICENSE.txt 与 assets/LIB0-LICENSE.txt。assets/umine
 
 ## Art of Joy expanded gallery (2026-10-22)
 
-Six distinct Modesta frames from the ARRI interview with cinematographer Fabio Cianchetti; three character images from Sky’s cast gallery. These are original production images, not AI or fan art, and are not covered by the code licence. Modesta is portrayed by Tecla Insolia. Resized only, no recomposition.
+Six distinct Modesta publicity photographs supplied by Sky and reproduced in Davide Maggio’s credited gallery; three other character images from Sky’s cast gallery. These are original production images, not AI or fan art, and are not covered by the code licence. Modesta is portrayed by Tecla Insolia. The Modesta selection retains the original 2560-pixel files byte-for-byte: no upscaling, cropping, sharpening, or AI reconstruction. The initial low-resolution ARRI screenshots were replaced after visual review. ARRI remains a textual cinematography source only.
 
 - `joy-gaia.jpg`: https://tg24.sky.it/assets/images/1e2002270a9d48a7d366959bb6c2ebb3bc06a29e/skytg24/it/spettacolo/serie-tv/2024/05/30/l-arte-della-gioia-cast/05-arte.jpg
 - `joy-carmine.jpg`: https://tg24.sky.it/assets/images/87a7b157e3f91bec25b31b9c303c69ea696abb06/skytg24/it/spettacolo/serie-tv/2024/05/30/l-arte-della-gioia-cast/06-arte.jpg
 - `joy-beatrice.jpg`: https://tg24.sky.it/assets/images/f5f4c81c2d28bee7aa82bbde7749d8ac97ee33bc/skytg24/it/spettacolo/serie-tv/2024/05/30/l-arte-della-gioia-cast/07-arte.jpg
-- `joy-modesta-1.jpg`: https://www.arri.com/resource/image/377944/landscape_ratio1x0_418/960/400/b6d8a5d6e26de1856d0ec85d6671b3da/416B51580876A955A7EF80C81E45C7CB/stills4.jpg
-- `joy-modesta-2.jpg`: https://www.arri.com/resource/image/377948/landscape_ratio1x0_418/960/400/b7f90680bc9af7d6de681382359d1dfe/1F4932C242615FABAF48EE3A2DB4D4C8/stills2.jpg
-- `joy-modesta-3.jpg`: https://www.arri.com/resource/blob/377952/b7bfc7e3143d38cb4a40378f740f8658/image-6-stills-prato-data.jpg
-- `joy-modesta-4.jpg`: https://www.arri.com/resource/image/377946/landscape_ratio1x0_418/960/400/73fcc6dc6200c0d1fa4fcc5609263604/03367236929FAF4878D3D0E51D9E07D7/stills3.jpg
-- `joy-modesta-5.jpg`: https://www.arri.com/resource/image/377940/landscape_ratio1x0_418/960/400/7b872bb4646636e11130ab94939fc506/CE05CFF8979810580530071043814245/stills6.jpg
-- `joy-modesta-6.jpg`: https://www.arri.com/resource/image/377950/landscape_ratio1x0_418/960/400/97cce3b9d8b16ae688389f6be021d02d/F216270B0B94C336708A96A392B29B80/stills1.jpg
 
 Editorial sources: https://tg24.sky.it/spettacolo/serie-tv/2025/02/24/l-arte-della-gioia-serie-tv and https://www.arri.com/news-it/dp-fabio-cianchetti-e-la-serie-tv-l-arte-della-gioia . The space/relationships/ethics section is editorial interpretation, not an attributed personal review.
+
+### Replacement high-resolution Modesta selection
+Source gallery: https://www.davidemaggio.it/photogallery/larte-della-gioia
+- `joy-modesta-hq-1.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-7-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-2.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insola-e-Giuseppe-Spata-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-3.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-3-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-4.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-LArte-della-Gioia-scaled-e1740755167422.jpg
+- `joy-modesta-hq-5.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-10-Larte-della-gioia-scaled.jpg
+- `joy-modesta-hq-6.jpg`: https://www.davidemaggio.it/app/uploads/2025/02/Tecla-Insolia-4-Larte-della-gioia-scaled.jpg
+The existing Modesta character card also uses `joy-modesta-hq-4.jpg`; it is not counted as a seventh distinct gallery image.
