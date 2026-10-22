@@ -59,10 +59,14 @@ class CharacterImageTests(unittest.TestCase):
         self.assertIn('joy-reading',html)
         self.assertNotIn('六帧', (ROOT/'library.js').read_text())
         self.assertIn('Modesta / 五帧', (ROOT/'library.js').read_text())
-    def test_academic_revision_preserves_five_essays_and_25_sections(self):
+    def test_conversational_revision_preserves_five_essays_and_deep_concepts(self):
         html=(ROOT/'index.html').read_text().split('<section class="psyche shell"',1)[1].split('</section>',1)[0]
         self.assertEqual(html.count('class="long-essay"'),5)
-        self.assertEqual(html.count('<h4>'),25)
+        self.assertEqual(html.count('<h4>'),10)
+        self.assertIn('不被爱的叙事，',html)
+        self.assertIn('与欲望的回声。',html)
+        self.assertIn('为什么人会住进',html)
+        self.assertNotIn('命题 → 概念 → 推导',html)
         self.assertIn('自我理想',html)
         self.assertIn('享乐',html)
         self.assertIn('修通',html)
