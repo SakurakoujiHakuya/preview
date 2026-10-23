@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "fold-a-day",
+    "path": "demos/fold-a-day",
+    "title": "把今天折成一首诗",
+    "description": "把日常、心情与意象折成可编辑、可保存的诗笺",
+    "date": "2026-10-19",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/fold-a-day/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-fold-a-day.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "文学",
+    "interaction": "选择场景、心情与意象，再亲手改写一首诗。",
+    "accent": "#A65D4E"
+  },
+  {
+    "slug": "ordinary-museum",
+    "path": "demos/ordinary-museum",
+    "title": "日常物证馆",
+    "description": "为普通物件写展签：原创虚构常设展、个人收藏、PNG海报与本地备份",
+    "date": "2026-10-20",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/ordinary-museum/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-ordinary-museum.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "生活",
+    "interaction": "给一件普通物品写展签，收藏自己的日常。",
+    "accent": "#9A774D"
+  },
+  {
+    "slug": "midnight-canteen",
+    "path": "demos/midnight-canteen",
+    "title": "午夜小食堂",
+    "description": "七夜小店经营：采购、菜单、定价与顾客口味共同影响现金和口碑",
+    "date": "2026-10-21",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/midnight-canteen/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-midnight-canteen.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "策略",
+    "interaction": "采购食材、安排菜单，亲手经营七个夜晚。",
+    "accent": "#D88A55"
+  },
+  {
+    "slug": "rainy-letters",
+    "path": "demos/rainy-letters",
+    "title": "雨夜来信",
+    "description": "雨夜遗失信件：调查证词、连接证据、核验重建与不同结局",
+    "date": "2026-10-21",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/rainy-letters/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-rainy-letters.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "文学",
+    "interaction": "调查证词、连接证据，重建一封信的去向。",
+    "accent": "#637E8F"
+  },
+  {
+    "slug": "balcony-seasons",
+    "path": "demos/balcony-seasons",
+    "title": "一平方米四季",
+    "description": "20日阳台生态：播种、浇水、天气与伴生植物的资源策略",
+    "date": "2026-10-21",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/balcony-seasons/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-balcony-seasons.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "生活",
+    "interaction": "播种、浇水与安排邻居，照料二十天阳台。",
+    "accent": "#759363"
+  },
+  {
+    "slug": "last-train",
+    "path": "demos/last-train",
+    "title": "末班车调度室",
+    "description": "末班地铁调度：容量、让行、换乘与期限的方案优化",
+    "date": "2026-10-21",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/last-train/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-last-train.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "策略",
+    "interaction": "重排发车和停站，让乘客赶上最后一班车。",
+    "accent": "#D5A74C"
+  },
+  {
+    "slug": "suitcase-stories",
+    "path": "demos/suitcase-stories",
+    "title": "行李里的远方",
+    "description": "空间收纳与旅行取舍：旋转物品、满足需要、比较不同偏好的装箱策略",
+    "date": "2026-10-22",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/suitcase-stories/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-suitcase-stories.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "生活",
+    "interaction": "旋转、移动与取舍，把想带的远方装进箱子。",
+    "accent": "#B7835B"
+  },
+  {
+    "slug": "pocket-soundscape",
+    "path": "demos/pocket-soundscape",
+    "title": "口袋声景",
+    "description": "六轨十六步生活声音编曲：A/B结构、重音、摇摆、独奏与可保存的原创声景",
+    "date": "2026-10-22",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/pocket-soundscape/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-pocket-soundscape.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "创作",
+    "interaction": "点亮十六步节奏，把生活声音编成一段声景。",
+    "accent": "#819A96"
+  },
+  {
+    "slug": "shadow-theatre",
+    "path": "demos/shadow-theatre",
+    "title": "影子剧场",
+    "description": "三幕光影几何谜题：移动纸偶与光源，让投影重合并探索等效解",
+    "date": "2026-10-22",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/shadow-theatre/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-shadow-theatre.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "创作",
+    "interaction": "移动纸偶和光源，让影子与目标轮廓重合。",
+    "accent": "#9B83A5"
+  },
+  {
+    "slug": "shared-house-council",
+    "path": "demos/shared-house-council",
+    "title": "合租公约实验室",
+    "description": "四周合租协商：分配劳动与预算，观察投票、信任与共同生活的不同结局",
+    "date": "2026-10-22",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/shared-house-council/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-shared-house-council.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "策略",
+    "interaction": "分配劳动与预算，试着让四位室友达成公约。",
+    "accent": "#B17B73"
+  },
+  {
+    "slug": "kite-wind",
+    "path": "demos/kite-wind",
+    "title": "借风放纸鸢",
+    "description": "借助确定性风场牵线、收放与减压，在三种风况中优化四枚风笺的路线",
+    "date": "2026-10-23",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/kite-wind/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-kite-wind.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "生活",
+    "interaction": "牵线、收放与稳住，借风接住四枚风笺。",
+    "accent": "#729B96"
+  },
+  {
+    "slug": "resist-dye",
+    "path": "demos/resist-dye",
+    "title": "蓝染实验室",
+    "description": "画蜡、折叠与分层浸染，完成三种防染委托或创作独一块布样",
+    "date": "2026-10-23",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/resist-dye/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-resist-dye.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "创作",
+    "interaction": "画蜡、折叠与分层浸染，留下自己的布样。",
+    "accent": "#567DA9"
+  },
+  {
+    "slug": "erasure-poetry",
+    "path": "demos/erasure-poetry",
+    "title": "留白编辑部",
+    "description": "从三篇原创散文中逐词删削、重新分行，在约束与自由写作中留下另一种叙事",
+    "date": "2026-10-23",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/erasure-poetry/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-erasure-poetry.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "文学",
+    "interaction": "保留几个词、重新分行，在删削里写出诗。",
+    "accent": "#9C7669"
+  },
+  {
+    "slug": "laundry-day",
+    "path": "demos/laundry-day",
+    "title": "晴天洗衣计划",
+    "description": "安排洗衣批次与晾晒时序，在天气、材质、截止时间与用电之间找到可行策略",
+    "date": "2026-10-23",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js"
+    ],
+    "readme": "demos/laundry-day/README.md",
+    "license": "MIT",
+    "deployment": {
+      "url": "https://hakuya-laundry-day.golden-berry-3772.chatgpt.site",
+      "access": "public"
+    },
+    "category": "生活",
+    "interaction": "安排洗涤与晾晒，让衣物赶在赴约前干透。",
+    "accent": "#82A5A7"
+  }
+]
