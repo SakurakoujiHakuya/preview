@@ -3,13 +3,13 @@ const characterPhotos = {"aoi-ieyasu": {"file": "aoi-ieyasu.jpg", "alt": "津川
 function characterPortrait(key) {
   const p = characterPhotos[key];
   if (!p) return '';
-  return `<figure class="character-portrait" data-portrait="${key}"><button type="button" class="portrait-open" data-enlarge="${key}" aria-label="放大：${p.caption}"><img src="assets/characters/${p.file}" width="${p.width}" height="${p.height}" alt="${p.alt}" loading="lazy"><span aria-hidden="true">↗</span></button><figcaption>${p.caption}<small>${p.credit}</small></figcaption></figure>`;
+  return `<figure class="character-portrait" data-portrait="${key}"><button type="button" class="portrait-open" data-enlarge="${key}" aria-label="放大：${p.caption}"><img src="../assets/characters/${p.file}" width="${p.width}" height="${p.height}" alt="${p.alt}" loading="lazy"><span aria-hidden="true">↗</span></button><figcaption>${p.caption}<small>${p.credit}</small></figcaption></figure>`;
 }
 (()=>{
  const dialog=document.createElement('dialog');dialog.className='portrait-dialog';dialog.setAttribute('aria-label','人物剧照大图');
  dialog.innerHTML='<button type="button" class="portrait-close" aria-label="关闭人物大图">关闭 ×</button><img alt=""><p aria-live="polite"></p><nav class="portrait-gallery-nav" aria-label="Modesta 剧照翻页" hidden><button type="button" data-direction="-1">← 上一张</button><span></span><button type="button" data-direction="1">下一张 →</button></nav><a target="_blank" rel="noopener noreferrer">图片出处 ↗</a>';
  document.body.append(dialog);let trigger,keys=[],index=0;
- function render(){const p=characterPhotos[keys[index]];const image=dialog.querySelector('img');image.src='assets/characters/'+p.file;image.alt=p.alt;image.style.maxWidth=p.width+'px';image.style.height='min(70dvh,'+p.height+'px)';image.style.marginInline='auto';dialog.querySelector('p').textContent=p.caption+' · '+p.credit;dialog.querySelector('a').href=p.source;dialog.querySelector('nav').hidden=keys.length<2;dialog.querySelector('nav span').textContent=(index+1)+' / '+keys.length;}
+ function render(){const p=characterPhotos[keys[index]];const image=dialog.querySelector('img');image.src='../assets/characters/'+p.file;image.alt=p.alt;image.style.maxWidth=p.width+'px';image.style.height='min(70dvh,'+p.height+'px)';image.style.marginInline='auto';dialog.querySelector('p').textContent=p.caption+' · '+p.credit;dialog.querySelector('a').href=p.source;dialog.querySelector('nav').hidden=keys.length<2;dialog.querySelector('nav span').textContent=(index+1)+' / '+keys.length;}
  document.addEventListener('click',e=>{const b=e.target.closest('[data-enlarge]');if(!b||!characterPhotos[b.dataset.enlarge])return;trigger=b;keys=b.dataset.gallery?[...document.querySelectorAll('[data-gallery="'+b.dataset.gallery+'"]')].map(x=>x.dataset.enlarge):[b.dataset.enlarge];index=keys.indexOf(b.dataset.enlarge);render();dialog.showModal();});
  const move=n=>{index=(index+n+keys.length)%keys.length;render();};
  dialog.querySelector('.portrait-close').addEventListener('click',()=>dialog.close());

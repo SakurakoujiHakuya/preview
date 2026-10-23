@@ -311,3 +311,7 @@ select{min-width:150px}
 @media (max-width:820px){.chapter-head{grid-template-columns:1fr}}
 .work figure img{max-height:min(70vh,640px);object-fit:cover}.work>div:has(>figure):has(>div) figure img{object-fit:contain;max-height:620px;width:auto;margin:auto}
 @media (max-width:820px){.hero-title{font-size:clamp(52px,16vw,120px)}}
+.version-switch{position:fixed;right:18px;bottom:18px;z-index:150;display:flex;gap:2px;padding:4px;border-radius:99px;background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(12px);border:1px solid var(--line);box-shadow:0 10px 30px -14px rgba(0,0,0,.4);font-size:12.5px}
+.version-switch span,.version-switch b{padding:5px 12px;border-radius:99px;font-weight:500}
+.version-switch span{color:var(--muted)}.version-switch b{background:var(--ink);color:var(--bg)}
+.version-switch:hover span{color:var(--accent)}
