@@ -1,4 +1,4 @@
-const {test}=require('node:test');const assert=require('node:assert/strict');const {normalize,filter,safeURL}=require('../gallery.js');const fs=require('node:fs');const data=JSON.parse(fs.readFileSync(__dirname+'/../assets/demo-catalog.json'));
+const {test}=require('node:test');const assert=require('node:assert/strict');const {normalize,filter,safeURL}=require('../classic/gallery.js');const fs=require('node:fs');const data=JSON.parse(fs.readFileSync(__dirname+'/../assets/demo-catalog.json'));
 test('all current projects render newest first',()=>{const a=normalize(data);assert.equal(a.length,14);assert.equal(a[0].date,'2026-10-23')});
 test('future entry appears with no homepage source update',()=>{const future={...data[0],slug:'future-demo',path:'demos/future-demo',date:'2026-10-24',category:'new-type'};assert.equal(normalize([...data,future])[0].slug,'future-demo');assert.equal(normalize([future])[0].category,'其他')});
 test('query category and date combine',()=>{const a=normalize(data);const d=a[0];assert.equal(filter(a,{query:d.title,category:d.category,date:d.date}).length,1);assert.equal(filter(a,{query:'不存在的测试词'}).length,0)});

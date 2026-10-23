@@ -1,4 +1,5 @@
 """Static regression checks. These do not replace a browser interaction test."""
+import os
 import re
 import subprocess
 import unittest
@@ -7,6 +8,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+CLASSIC = ROOT / 'classic'  # original homepage; new version is served at the root
 class Document(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -18,13 +20,13 @@ class Document(HTMLParser):
         if tag in ('img', 'script', 'link'):
             path = a.get('src', a.get('href', ''))
             if path and not path.startswith(('http', 'data:', '#')):
-                self.assets.append(path.split("?", 1)[0])
+                self.assets.append(os.path.normpath(os.path.join("classic", path.split("?", 1)[0])))
 
 class HomepageTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.html = (ROOT / 'index.html').read_text()
-        cls.js = (ROOT / 'library.js').read_text()
+        cls.html = (CLASSIC / 'index.html').read_text()
+        cls.js = (CLASSIC / 'library.js').read_text()
         cls.doc = Document()
         cls.doc.feed(cls.html)
     def test_unique_ids(self):
@@ -51,7 +53,7 @@ class HomepageTests(unittest.TestCase):
         self.assertIn('aria-controls="aoi-dossier"', self.html)
         self.assertIn('aoi-dossier', self.doc.ids)
     def test_js_syntax(self):
-        for path in ('app.js', 'library.js', 'assets/yjs-lab.js'):
+        for path in ('classic/app.js', 'classic/library.js', 'assets/yjs-lab.js'):
             subprocess.run(['node', '--check', str(ROOT / path)], check=True, capture_output=True)
 
 if __name__ == '__main__':

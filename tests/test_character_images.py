@@ -31,12 +31,12 @@ class CharacterImageTests(unittest.TestCase):
             self.assertGreater(item['height'],100)
             self.assertTrue(item['source'].startswith('https://'))
     def test_source_data_matches_runtime(self):
-        runtime=(ROOT/'portraits.js').read_text()
+        runtime=(ROOT/'classic/portraits.js').read_text()
         serialized=runtime.split('const characterPhotos = ',1)[1].split(';\nfunction',1)[0]
         self.assertEqual(json.loads(serialized),json.loads((ROOT/'assets/characters/sources.json').read_text()))
-        subprocess.run(['node','--check',str(ROOT/'portraits.js')],check=True,capture_output=True)
+        subprocess.run(['node','--check',str(ROOT/'classic/portraits.js')],check=True,capture_output=True)
     def test_script_dependency_order_and_honest_exception(self):
-        html=(ROOT/'index.html').read_text()
+        html=(ROOT/'classic/index.html').read_text()
         self.assertLess(html.index('src="portraits.js'),html.index('src="library.js'))
         self.assertIn('尚未取得能核实角色对应的非露骨原作人物截图',html)
         self.assertIn('青年叶淑柔',html)
@@ -53,14 +53,14 @@ class CharacterImageTests(unittest.TestCase):
         for p in files:
             with Image.open(p) as im: self.assertGreaterEqual(im.width,1280)
         self.assertEqual(len({hashlib.sha256(p.read_bytes()).hexdigest() for p in files}),5)
-        html=(ROOT/'index.html').read_text()
+        html=(ROOT/'classic/index.html').read_text()
         self.assertEqual(html.count('data-gallery="modesta"'),5)
         self.assertIn('HAKUYA 重点推荐',html)
         self.assertIn('joy-reading',html)
-        self.assertNotIn('六帧', (ROOT/'library.js').read_text())
-        self.assertIn('Modesta / 五帧', (ROOT/'library.js').read_text())
+        self.assertNotIn('六帧', (ROOT/'classic/library.js').read_text())
+        self.assertIn('Modesta / 五帧', (ROOT/'classic/library.js').read_text())
     def test_conversational_revision_preserves_five_essays_and_deep_concepts(self):
-        html=(ROOT/'index.html').read_text().split('<section class="psyche shell"',1)[1].split('</section>',1)[0]
+        html=(ROOT/'classic/index.html').read_text().split('<section class="psyche shell"',1)[1].split('</section>',1)[0]
         self.assertEqual(html.count('class="long-essay"'),5)
         self.assertEqual(html.count('<h4>'),10)
         self.assertIn('不被爱的叙事，',html)
