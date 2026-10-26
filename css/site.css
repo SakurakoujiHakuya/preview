@@ -344,3 +344,6 @@ html.zone-init body,html.zone-init .topbar{transition:none!important}
  .topbar nav.fade-end{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent)}
  .topbar nav::-webkit-scrollbar{display:none}
 }
+/* yjs update-flight colours: A = zone primary, B = accent (both >=5:1 vs surfaces) */
+yjs-collab-lab{--flight-a:var(--accent,#0B6E8A);--flight-b:#9B3F8F;--flight-line:#9aa3a8}
+[data-theme=dark] yjs-collab-lab{--flight-b:#D88BD0;--flight-line:#6b747a}
