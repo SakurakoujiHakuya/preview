@@ -333,3 +333,14 @@ html.zone-init body,html.zone-init .topbar{transition:none!important}
 .joy-cinema .artbook-nav [role=tab]{min-height:44px}
 .joy-cinema .joy-panel{scroll-margin-top:calc(var(--header-h,64px) + var(--joy-tabs-h,64px) + 16px - 80px)}
 .joy-next{display:block;min-height:44px;margin:32px 0 0 auto;cursor:pointer}
+
+.joy-cinema .artbook-nav .tab-short{display:none}
+@media (max-width:767px){
+ .joy-cinema .artbook-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;gap:8px}
+ .joy-cinema .artbook-nav::-webkit-scrollbar{display:none}
+ .joy-cinema .artbook-nav [role=tab]{flex:none;white-space:nowrap}
+ .joy-cinema .artbook-nav .tab-long{display:none}.joy-cinema .artbook-nav .tab-short{display:inline}
+ .joy-cinema .artbook-nav.fade-end{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent)}
+ .topbar nav.fade-end{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent)}
+ .topbar nav::-webkit-scrollbar{display:none}
+}
