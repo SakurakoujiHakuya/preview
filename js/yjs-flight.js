@@ -18,6 +18,8 @@
 .flight .a{background:var(--flight-a,#0B6E8A)}.flight .b{background:var(--flight-b,#9B3F8F)}
 .flight .more{position:absolute;font:600 10px/1 ui-monospace,monospace;color:var(--y-muted,#53645c);transform:translate(-50%,-50%);left:0;top:0}
 .logs{height:168px;overflow-y:auto}
+#toggle{min-width:132px}
+@media(max-width:560px){#toggle{min-width:0}.toolbar{display:grid;grid-template-columns:1fr 1fr}.toolbar button{padding:10px 6px;font-size:13px;white-space:nowrap;min-height:44px}}
 @media(max-width:560px){.editors{gap:24px}}`;
 
   function enhance(el) {
