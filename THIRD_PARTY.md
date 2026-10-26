@@ -66,3 +66,6 @@ The previous six-image mood selection is replaced by five distinct images. Four 
 - `joy-modesta-cinema-3.png`: https://video.sky.it/news/spettacolo/video/larte-della-gioia-trailer-video-926993 (approximately 22.5 seconds).
 - `joy-modesta-cinema-4.png`: https://video.sky.it/news/spettacolo/video/larte-della-gioia-trailer-video-926993 (approximately 97.5 seconds).
 - `joy-modesta-cinema-5.png`: https://www.iodonna.it/personaggi/star-italiane/2025/02/23/tecla-insolia-la-mia-personale-arte-della-gioia-dare-valore-a-quel-che-ho-lasciando-andare-la-pesantezza/ (Paolo Ciriello / Sky Italia; editorial publication reproduces the production credit).
+
+## 字体
+- `fonts/hk-serif.woff2`：Noto Serif CJK SC Bold（Adobe/Google，Noto CJK 2.x）的子集，仅包含页面标题实际用到的约 860 个字符，由 fontTools `pyftsubset` 生成（去 hinting）。许可：SIL Open Font License 1.1，全文见 `fonts/OFL.txt`；来源 https://github.com/notofonts/noto-cjk 。子集字体按 OFL 以 "HK Serif" 名称引用，未修改字形。

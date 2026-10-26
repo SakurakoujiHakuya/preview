@@ -1,0 +1,22 @@
+/* Zone palettes from UX/UI (/workspace/zones/zones.css). Do not hand-edit the mirrored block; edit values in both places or regenerate. */
+/* 1. Site-wide defaults (= home/neutral zone): topbar, footer, version switch, body before JS */
+:root[data-theme="dark"]{--bg:#141517;--surface:#1D1F22;--text:#E8E7E3;--muted:#9A9CA1;--accent:#C9C6BD;}
+:root[data-theme="light"]{--bg:#F4F4F2;--surface:#FFFFFF;--text:#1A1B1D;--muted:#5F6166;--accent:#3A3C40;}
+/* 2. Per-section palettes (designer values, unchanged) */
+[data-theme="dark"] [data-zone="home"]{--bg:#141517;--surface:#1D1F22;--text:#E8E7E3;--muted:#9A9CA1;--accent:#C9C6BD;}
+[data-theme="light"] [data-zone="home"]{--bg:#F4F4F2;--surface:#FFFFFF;--text:#1A1B1D;--muted:#5F6166;--accent:#3A3C40;}
+[data-theme="dark"] [data-zone="tech"]{--bg:#0F1418;--surface:#172027;--text:#DCE6EC;--muted:#8A9AA6;--accent:#5CC8E0;}
+[data-theme="light"] [data-zone="tech"]{--bg:#EEF2F5;--surface:#FFFFFF;--text:#13202A;--muted:#4E5F6B;--accent:#0B6E8A;}
+[data-theme="dark"] [data-zone="cinema"]{--bg:#161214;--surface:#211A1C;--text:#EDE6E3;--muted:#A3979A;--accent:#E0646A;--accent2:#7FB5BC;}
+[data-theme="light"] [data-zone="cinema"]{--bg:#EEEDEA;--surface:#FAF9F7;--text:#1B1B1D;--muted:#625F62;--accent:#A3262A;--accent2:#2F6B72;}
+[data-theme="dark"] [data-zone="psyche"]{--bg:#131715;--surface:#1B211E;--text:#E3E8E4;--muted:#93A099;--accent:#6FC2A0;}
+[data-theme="light"] [data-zone="psyche"]{--bg:#F3F4F2;--surface:#FFFFFF;--text:#1A1D1B;--muted:#5E6662;--accent:#1F6B52;}
+/* 3. Mirror on <html> for the active zone: body background, topbar, site footer and version switch follow the zone in view */
+:root[data-theme="dark"][data-active-zone="home"]{--bg:#141517;--surface:#1D1F22;--text:#E8E7E3;--muted:#9A9CA1;--accent:#C9C6BD;}
+:root[data-theme="light"][data-active-zone="home"]{--bg:#F4F4F2;--surface:#FFFFFF;--text:#1A1B1D;--muted:#5F6166;--accent:#3A3C40;}
+:root[data-theme="dark"][data-active-zone="tech"]{--bg:#0F1418;--surface:#172027;--text:#DCE6EC;--muted:#8A9AA6;--accent:#5CC8E0;}
+:root[data-theme="light"][data-active-zone="tech"]{--bg:#EEF2F5;--surface:#FFFFFF;--text:#13202A;--muted:#4E5F6B;--accent:#0B6E8A;}
+:root[data-theme="dark"][data-active-zone="cinema"]{--bg:#161214;--surface:#211A1C;--text:#EDE6E3;--muted:#A3979A;--accent:#E0646A;--accent2:#7FB5BC;}
+:root[data-theme="light"][data-active-zone="cinema"]{--bg:#EEEDEA;--surface:#FAF9F7;--text:#1B1B1D;--muted:#625F62;--accent:#A3262A;--accent2:#2F6B72;}
+:root[data-theme="dark"][data-active-zone="psyche"]{--bg:#131715;--surface:#1B211E;--text:#E3E8E4;--muted:#93A099;--accent:#6FC2A0;}
+:root[data-theme="light"][data-active-zone="psyche"]{--bg:#F3F4F2;--surface:#FFFFFF;--text:#1A1D1B;--muted:#5E6662;--accent:#1F6B52;}
