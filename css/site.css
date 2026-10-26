@@ -326,3 +326,10 @@ select{min-width:150px}
 html.zone-init body,html.zone-init .topbar{transition:none!important}
 /* body paints the active zone (html[data-active-zone], set by js/zones.js); background fades 300ms */
 @media (prefers-reduced-motion:reduce){body,.topbar{transition:none!important}html{scroll-behavior:auto}}
+
+/* #art-of-joy chapter tabs: sticky under topbar + chapter-end buttons */
+.joy-cinema .artbook-nav{position:sticky;top:var(--header-h,var(--topbar-h,64px));z-index:20;margin:0 0 24px;padding:8px 0;background:var(--bg);border-bottom:1px solid transparent}
+.joy-cinema .artbook-nav.stuck{border-bottom-color:var(--line)}
+.joy-cinema .artbook-nav [role=tab]{min-height:44px}
+.joy-cinema .joy-panel{scroll-margin-top:calc(var(--header-h,64px) + var(--joy-tabs-h,64px) + 16px - 80px)}
+.joy-next{display:block;min-height:44px;margin:32px 0 0 auto;cursor:pointer}
