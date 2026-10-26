@@ -28,4 +28,4 @@ button[data-filter][aria-pressed=true]>small{color:currentColor}
 .gallery-card-meta>span,[data-theme=dark] .gallery-card-meta>span{filter:none;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
 .gallery-card-meta>span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--demo-accent);flex:none}
 [data-theme=light] #about em,[data-theme=light] #about i{color:#E8E7E3}
-#lab button#reset,[data-theme] #lab button#reset{background:#555555;color:#E8E7E3;border-color:#555555}
+#lab button#reset,[data-theme] #lab button#reset,[data-theme] #lab button[role=tab]{background:#555555;color:#E8E7E3;border-color:#555555}
