@@ -15,6 +15,7 @@ function fromScroll(){const y=innerHeight*0.42;return sections.find(s=>{const r=
 activate(fromHash()||fromScroll()||sections[0]);
 requestAnimationFrame(()=>requestAnimationFrame(()=>root.classList.remove('zone-init')));
 /* Keep a deep link (#psyche, #lab…) anchored while async content above it (gallery catalog) changes height; stops on first user input or after 4s. */
+(function headerH(){const t=document.querySelector('.topbar');if(!t)return;const set=()=>document.documentElement.style.setProperty('--header-h',t.offsetHeight+'px');set();if('ResizeObserver' in window)new ResizeObserver(set).observe(t)})();
 (function pin(){const t=fromHash()&&document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!t||!('ResizeObserver' in window))return;let on=true;const stop=()=>{on=false;ro.disconnect()};const ro=new ResizeObserver(()=>{if(on){t.scrollIntoView({block:'start',behavior:'instant'});activate(t.closest('main>section[data-zone]'))}});ro.observe(document.querySelector('main')||document.body);['wheel','touchstart','keydown','pointerdown'].forEach(e=>addEventListener(e,stop,{once:true,passive:true}));setTimeout(stop,4000)})();
 if(!('IntersectionObserver' in window))return;
 const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting))activate(fromScroll())},{rootMargin:'-42% 0px -57% 0px'});

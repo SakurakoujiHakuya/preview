@@ -65,7 +65,7 @@ small{font-size:.8em;color:var(--muted)}
 @keyframes marq{to{transform:translateX(-50%)}}
 
 /* chapters */
-.chapter{max-width:var(--max);margin:auto;padding:clamp(80px,12vw,160px) var(--gut) 40px}
+.chapter{max-width:var(--max);margin:auto;padding:clamp(80px,12vw,160px) var(--gut) 40px;scroll-margin-top:calc(var(--header-h,64px) + 24px - 80px - clamp(80px,12vw,160px))}
 .chapter-head{display:grid;grid-template-columns:220px 1fr minmax(240px,360px);gap:clamp(20px,4vw,56px);align-items:end;padding-bottom:40px;margin-bottom:48px;border-bottom:1px solid var(--ink)}
 .chapter-no{color:var(--accent);align-self:start;padding-top:10px}.chapter-no span{font-family:var(--sans);letter-spacing:.06em;color:var(--muted);text-transform:none;font-size:13px}
 .chapter-head h2{font:900 clamp(44px,6.4vw,100px)/1.06 var(--serif);letter-spacing:-.03em;margin:0}
